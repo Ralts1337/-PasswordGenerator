@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
 'For password generator'
 __author__='Alex Meow'
+#I'll add GUI later if I remeber to...with TkInter I guess.
 import random
 import string
 import datetime
-from time import sleep
+from time import sleep 
 currenttime = str(datetime.datetime.now())
 print(currenttime)
 
-use = input("What do you use this for?\n")
+use = input("What do you use this for?(Username)\n")
 digits =int(input('How many digits do you want?\n'))
 lib = string.ascii_letters + string.digits+string.digits+string.digits
 a= ''
